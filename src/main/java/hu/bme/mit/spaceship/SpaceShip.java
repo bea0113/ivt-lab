@@ -12,7 +12,8 @@ public interface SpaceShip {
   * @param firingMode how many lasers to fire
   * @return was the firing successful
   */
-  public boolean fireLaser(FiringMode fireMod);
+
+  public boolean fireLaser(FiringMode firingMode);
 
 
   /**
