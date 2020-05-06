@@ -196,7 +196,6 @@ public class GT4500Test {
       verify(mockTorpedoStorePrimary, times(1)).fire(1);
       verify(mockTorpedoStoreSecondary, times(0)).fire(1);
       assertEquals(false, result);
-
     }
 
   }
